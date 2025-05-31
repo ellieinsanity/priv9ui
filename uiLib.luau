@@ -811,6 +811,8 @@ getgenv().loaded = true
                 outline:Destroy() 
             end)
         end
+
+	library.notificationsLib = notifications
         
         function library:watermark(options)
             local cfg = {
